@@ -5,5 +5,5 @@ django-toolbelt==0.0.1
 psycopg2==2.5.3
 py-mysql2pgsql==0.1.5
 boto==2.19.0
-django_storages==1.18
+django_storages==1.1.8
 dj-database-url==0.2.1
