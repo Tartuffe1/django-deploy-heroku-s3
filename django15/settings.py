@@ -159,7 +159,7 @@ try:
   from local_settings import *
 except Exception as e:
   pass
-DEBUG=False
+
 #Storage on S3 settings are stored as os.environs to keep settings.py clean
 if not DEBUG:
    AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
